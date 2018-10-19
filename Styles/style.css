@@ -1,20 +1,45 @@
 html {
-  background-color: #ADD8E6
+  background-color: #f794c1;
 }
 
 h1, h2, h3 {
-  font-family: Serif;
+  font-family: monospace;
+  color: #ADD8E6;
+}
+
+h2 {
   font-size: 24px;
 }
 
+h3 {
+  font-size: 22px;
+}
+
+img {
+  padding: 2px;
+  border: 5px solid #ADD8E6;
+}
+
 p {
-  font-family: Arial;
+  font-family: serif;
   font-size: 18px;
+}
+
+* {
+  line-height: 40px;
+}
+
+a:hover {
+  color: #00ffe9;
+}
+.Header1 {
+  font-size: 26px;
+  color: #ADD8E6;
 }
 
 .Intro {
   font-family: Arial;
-  color: #1a8cff;
+  color: #ADD8E6;
 }
 
 #paragraph1 {
@@ -24,13 +49,14 @@ p {
 }
 
 .Image1 {
-  align-content: center;
+  display: block;
+  margin-left: auto;
+   margin-right: auto;
+   width: 50%;
 }
 
 .FirstList {
-font-family: Arial;
 font-size: 20px;
-  color: #003366;
 }
 
 .List1 {
@@ -40,12 +66,10 @@ font-size: 20px;
 }
 
 .ThreePlatforms {
-  font-family: Arial;
-  color: #003366;
+  font-size: 24px;
 }
 
 #p2 {
-  font-family: serif;
   font-size: 18px;
 }
 
@@ -61,5 +85,5 @@ Table, th, td {
   width: 750px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #6666ff;
+  background-color: #ADD8E6;
 }
