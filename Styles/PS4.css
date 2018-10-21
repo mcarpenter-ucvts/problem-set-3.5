@@ -1,22 +1,10 @@
 html {
-  background-color: #2eea35;
+  background-color: #2abab5;
 }
 
 body {
   border: 10px solid #ADD8E6;
   padding: 25px 50px;
-}
-
-img {
-  border: 5px solid #ADD8E6;
-}
-
-* {
-  line-height: 40px;
-}
-
-a:hover {
-  color: #00ffe9;
 }
 
 h1, h2, h3 {
@@ -32,20 +20,40 @@ h3 {
   font-size: 20px;
 }
 
+img {
+  padding: 2px;
+  border: 5px solid #ADD8E6;
+  height: 310px;
+  width: 320px;
+}
+
 p {
   font-family: serif;
   font-size: 16px;
 }
 
-.Header {
-  font-size: 26px;
+* {
+  line-height: 40px;
 }
 
-.vgames {
+a:hover {
+  color: #00ffe9;
+}
+
+.Picture1 {
   height: 300px;
   width: 560px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   border-radius: 20px;
+}
+
+.Header {
+  font-size: 26px;
+}
+
+#PS4pro {
+  position: absolute;
+  right: 70px;
 }
