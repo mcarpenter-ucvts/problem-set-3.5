@@ -1,0 +1,50 @@
+html {
+  background-color: #2eea35;
+}
+
+body {
+  border: 10px solid #ADD8E6;
+  padding: 25px 50px;
+}
+
+img {
+  
+}
+
+* {
+  line-height: 40px;
+}
+
+a:hover {
+  color: #00ffe9;
+}
+
+h1, h2, h3 {
+  font-family: monospace;
+  color: #ADD8E6;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p {
+  font-family: serif;
+  font-size: 16px;
+}
+
+.Header {
+  font-size: 26px;
+}
+
+.vgames {
+  height: 300px;
+  width: 560px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
