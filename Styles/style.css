@@ -53,6 +53,7 @@ a:hover {
   font-family: Arial
   color: #003366;
   font-size: 18px;
+  font-weight: normal;
 }
 
 .Image1 {
@@ -65,6 +66,7 @@ a:hover {
 
 .FirstList {
 font-size: 20px;
+font-weight: normal;
 }
 
 .List1 {
