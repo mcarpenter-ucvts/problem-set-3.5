@@ -1,0 +1,91 @@
+html {
+  background-color: #e03535;
+}
+
+body {
+  border: 20px solid #ADD8E6;
+  padding: 25px 50px;
+}
+
+img {
+  border: 5px solid #ADD8E6;
+}
+
+* {
+  line-height: 40px;
+}
+
+a:hover {
+  color: #00ffe9;
+}
+
+h1, h2, h3 {
+  font-family: monospace;
+  color: #ADD8E6;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p {
+  font-family: serif;
+  font-size: 18px;
+}
+
+#header {
+  font: Verdana;
+  font-style: oblique;
+  font-size: 26px;
+  font-weight: bolder;
+  text-decoration: underline;
+  color: #ADD8E6;
+}
+
+#picture1 {
+  height: 300px;
+  width: 560px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+}
+
+#picture2 {
+  height: 300px;
+  width: 525px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.PicLink {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 + p {
+  font-size: 18px;
+  color: black;
+  font-style: normal;
+}
+
+ul > li {
+  color: white;
+  font-weight: bold;
+}
+
+ol > li {
+  color: Black;
+  font-weight: bold;
+}
+
+#note {
+  color: white;
+  font-weight: bold;
+}

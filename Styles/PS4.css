@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  border: 10px solid #ADD8E6;
+  border: 20px solid #ADD8E6;
   padding: 25px 50px;
 }
 
@@ -29,7 +29,7 @@ img {
 
 p {
   font-family: serif;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 * {
@@ -49,11 +49,40 @@ a:hover {
   border-radius: 20px;
 }
 
+#Picture2 {
+  margin-left: 0px;
+  margin-right: 200px;
+}
+
+#Picture3 {
+  margin-left: 320px;
+  margin-right: 0px;
+}
+
 .Header {
+  font: Verdana;
+  font-style: oblique;
   font-size: 26px;
+  font-weight: bolder;
+  text-decoration: underline;
+  color: #ADD8E6;
 }
 
 #PS4pro {
   position: absolute;
-  right: 70px;
+  right: 75px;
+}
+
+a[href*="com"] {
+  background-color: #ADD8E6;
+}
+
+ul > li {
+  color: white;
+  font-weight: bold;
+}
+
+#Games > li {
+  color: Black;
+  font-weight: bold;
 }
